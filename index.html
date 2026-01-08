@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ODIZO-W1</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
       @theme {
@@ -11,136 +12,127 @@
       }
     </style>
 </head>
-<body class="bg-black text-white h-screen w-full flex flex-col ">
-    <div>
-        <div class="h-[55px] w-full bg-gray-700 flex justify-between items-center ">
-            <div>
-            <span class="font-mono text-2xl ml-3">ODIZO</span>
-            </div>
-            <div class="mr-6">
-                <span class="ml-5 text-gray-100 font-medium hover:underline hover:decoration-gray-300 hover:decoration-2 hover:underline-offset-4 transition-all cursor-pointer">Home</span>  
-                <span class="ml-5 text-gray-100 font-medium hover:underline hover:decoration-gray-300 hover:decoration-2 hover:underline-offset-4 transition-all cursor-pointer">About</span>  
-                <span class="ml-5 text-gray-100 font-medium hover:underline hover:decoration-gray-300 hover:decoration-2 hover:underline-offset-4 transition-all cursor-pointer">Contact Us</span>  
-            </div>
-               </div>
+<body class="bg-black text-white min-h-screen w-full flex flex-col">
+    
+
+    <div class="h-[55px] w-full bg-gray-700 flex justify-between items-center px-3 sm:px-4 md:px-6">
+        <div class="flex-shrink-0">
+            <span class="font-mono text-xl sm:text-2xl">ODIZO</span>
+        </div>
+        
+        
+        <div class="hidden md:flex gap-3 lg:gap-5 mr-2 lg:mr-6">
+            <span class="text-gray-100 font-medium hover:underline hover:decoration-gray-300 hover:decoration-2 hover:underline-offset-4 transition-all cursor-pointer text-sm lg:text-base">Home</span>  
+            <span class="text-gray-100 font-medium hover:underline hover:decoration-gray-300 hover:decoration-2 hover:underline-offset-4 transition-all cursor-pointer text-sm lg:text-base">About</span>  
+            <span class="text-gray-100 font-medium hover:underline hover:decoration-gray-300 hover:decoration-2 hover:underline-offset-4 transition-all cursor-pointer text-sm lg:text-base">Contact Us</span>  
+        </div>
+        
+        <div class="flex md:hidden flex-col gap-1 text-right">
+            <span class="text-gray-100 font-medium text-xs cursor-pointer hover:text-white transition-all">Home</span>  
+            <span class="text-gray-100 font-medium text-xs cursor-pointer hover:text-white transition-all">About</span>  
+            <span class="text-gray-100 font-medium text-xs cursor-pointer hover:text-white transition-all">Contact</span>  
+        </div>
     </div>
      
-    <div class="flex flex-col items-center h-full m-5">
-        <span class="font-mono text-[100px] ">
+    <div class="flex flex-col items-center h-auto py-10 md:py-20 px-5">
+        <span class="font-mono text-5xl md:text-7xl lg:text-[100px] text-center">
             ODIZO
         </span> 
         
-        <span class="text-[25px] font-mono ">Custom Mobile & Web Software </span>
-        <span class="text-[18px] font-mono flex justify-center mx-10 text-gray-400">We design, build and scale digital products from MVPs to production-grade mobile or web solutions.Fast releases, clean engineering, and growth-minded product design.</span>
+        <span class="text-lg md:text-xl lg:text-[25px] font-mono mt-4 text-center">Custom Mobile & Web Software</span>
+        <span class="text-sm md:text-base lg:text-[18px] font-mono flex justify-center mx-5 md:mx-10 text-gray-400 text-center mt-3 max-w-4xl">We design, build and scale digital products from MVPs to production-grade mobile or web solutions. Fast releases, clean engineering, and growth-minded product design.</span>
         <div>
-            <button class="mt-4 border border-white text-white hover:bg-white hover:text-black transition-all  p-4 rounded-xl">Our Works</button>
+            <button class="mt-6 border border-white text-white hover:bg-white hover:text-black transition-all p-3 md:p-4 rounded-xl text-sm md:text-base">Our Works</button>
         </div>
     </div>
-        <div class="max-w-7xl mx-auto px-6 py-12 bg-black text-white font-sans">
-    
-    <div class="mb-10">
-        <span class="font-mono text-blue-800 text-sm uppercase tracking-widest block mb-2">Who we are</span>
-        <h2 class="text-[30px] font-bold border-b-4 border-blue-600 inline-block pb-2">About Us</h2>
-    </div>
 
-    <div class="flex flex-col md:flex-row gap-12 items-center">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12 bg-black text-white font-sans w-full">
         
-        <div class="w-full md:w-1/2 space-y-6">
-            <p class="text-xl text-gray-300 leading-relaxed">
-                We have <span class="text-blue-400 font-bold font-mono">20+ services</span> serving thousands of customers across Custom Software Development, Websites & Brand Experience, Automation & Integrations, Maintenance, Support & Growth.
-            </p>
-            <div class="h-1 w-20 bg-blue-600 rounded"></div>
-            <p class="text-gray-400 leading-relaxed text-lg font-mono">
-                Our mission is to help businesses and professionals build a strong digital presence through reliable, scalable, and result-driven web solutions. At <span class="text-white font-semibold">Odizo</span>, we simplify technology so brands can grow with confidence.
-            </p>
+        <div class="mb-6 md:mb-10">
+            <span class="font-mono text-blue-800 text-xs md:text-sm uppercase tracking-widest block mb-2">Who we are</span>
+            <h2 class="text-2xl md:text-[30px] font-bold border-b-4 border-blue-600 inline-block pb-2">About Us</h2>
         </div>
 
-        <div class="w-full md:w-1/2 flex justify-center">
-            <div class="bg-gray-800 p-8 rounded-2xl shadow-2xl w-full max-w-md border border-gray-700">
-                <h3 class="text-2xl font-bold font-mono text-white mb-6 text-center">Connect With Us</h3>
-                
-                <form action="#" method="POST" class="space-y-4">
-                    <div>
-                        <label for="name" class="block text-xs font-semibold text-gray-400 uppercase mb-1">Full Name</label>
-                        <input type="text" id="name" name="name" placeholder="Hitesh Kumar" 
-                            class="w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300">
-                    </div>
-
-                    <div>
-                        <label for="email" class="block text-xs font-semibold text-gray-400 uppercase mb-1">Email Address</label>
-                        <input type="email" id="email" name="email" placeholder="hitesh@example.com" 
-                            class="w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300">
-                    </div>
-
-                    <div>
-                        <label for="note" class="block text-xs font-semibold text-gray-400 uppercase mb-1">Your Note</label>
-                        <textarea id="note" name="note" rows="4" placeholder="How can we help you?" 
-                            class="w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300 resize-none"></textarea>
-                    </div>
-
-                    <button type="submit" 
-                        class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-xl transition duration-300 shadow-lg hover:shadow-blue-500/20 mt-2">
-                        Send Message
-                    </button>
-                </form>
+        <div class="flex flex-col gap-8 md:gap-12 items-center">
+            
+            <div class="w-full space-y-4 md:space-y-6">
+                <p class="text-lg md:text-xl text-gray-300 leading-relaxed">
+                    We have <span class="text-blue-400 font-bold font-mono">20+ services</span> serving thousands of customers across Custom Software Development, Websites & Brand Experience, Automation & Integrations, Maintenance, Support & Growth.
+                </p>
+                <div class="h-1 w-20 bg-blue-600 rounded"></div>
+                <p class="text-gray-400 leading-relaxed text-base md:text-lg font-mono">
+                    Our mission is to help businesses and professionals build a strong digital presence through reliable, scalable, and result-driven web solutions. At <span class="text-white font-semibold">Odizo</span>, we simplify technology so brands can grow with confidence.
+                </p>
             </div>
-        </div>
 
+            <div class="w-full flex justify-center">
+                <div class="bg-gray-800 p-6 md:p-8 rounded-2xl shadow-2xl w-full max-w-md border border-gray-700">
+                    <h3 class="text-xl md:text-2xl font-bold font-mono text-white mb-4 md:mb-6 text-center">Connect With Us</h3>
+                    
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-xs font-semibold text-gray-400 uppercase mb-1">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Hitesh Kumar" 
+                                class="w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300">
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-xs font-semibold text-gray-400 uppercase mb-1">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="hitesh@example.com" 
+                                class="w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300">
+                        </div>
+
+                        <div>
+                            <label for="note" class="block text-xs font-semibold text-gray-400 uppercase mb-1">Your Note</label>
+                            <textarea id="note" name="note" rows="4" placeholder="How can we help you?" 
+                                class="w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300 resize-none"></textarea>
+                        </div>
+
+                        <button type="submit" 
+                            class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 md:py-4 rounded-xl transition duration-300 shadow-lg hover:shadow-blue-500/20 mt-2">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
     </div>
-</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="bottom-0 w-full flex flex-col mt-auto ml-2">
-        <span class="font-mono text-[20px] cursor-pointer hover:text-gray-600">Contact Us</span>
-        <div class=" flex  justify-between mr-20">
-        <span class="font-mono text-[13px] text-gray-400  my-[3px]">Email-contac@odizo.in</span>
-        <span class="text-[15px] text-gray-400">Our Socials</span>
+    <div class="w-full flex flex-col mt-auto px-4 md:px-6 py-4">
+        <span class="font-mono text-lg md:text-[20px] cursor-pointer hover:text-gray-600 mb-2">Contact Us</span>
         
+        <div class="flex flex-col md:flex-row justify-between gap-2 md:gap-0 md:mr-20">
+            <span class="font-mono text-xs md:text-[13px] text-gray-400">Email-contac@odizo.in</span>
+            <span class="text-sm md:text-[15px] text-gray-400">Our Socials</span>
         </div>
-        <div class="flex justify-between mr-17">
-        <span class="font-mono text-[13px]  text-gray-400 m-[3px]">Phone-0000000000</span>
-        <div class="flex gap-3">
-        <img 
+        
+        <div class="flex flex-col md:flex-row justify-between gap-2 md:gap-0 md:mr-17 items-start md:items-center">
+            <span class="font-mono text-xs md:text-[13px] text-gray-400">Phone-0000000000</span>
+            <div class="flex gap-3">
+                <!-- <div class="w-[23px] h-[23px] rounded-full bg-gray-700 flex items-center justify-center text-xs">X</div> -->
+                 <img 
   src="x.png" 
   alt="Profile Picture" 
   class="w-[23px] h-[23px] rounded-full object-cover shadow-lg "
 >
-        <img 
+                <img 
   src="linkedin.webp" 
   alt="Profile Picture" 
   class="w-[23px] h-[23px] rounded-full object-cover shadow-lg "
 >
-<img 
+                <img 
   src="insta.webp" 
   alt="Profile Picture" 
   class="w-[23px] h-[23px] rounded-full object-cover shadow-lg "
 >
-</div>
+            </div>
         </div>
 
-
-
-        <footer class="mt-auto w-full h-[30px] bg-gray-800 flex justify-center items-center">
-            <span class="text-gray-400">© 2024 ODIZO. All rights reserved.</span>
-        </div>
+        <footer class="mt-4 w-full h-[30px] bg-gray-800 flex justify-center items-center rounded-lg">
+            <span class="text-gray-400 text-xs md:text-sm">© 2024 ODIZO. All rights reserved.</span>
+        </footer>
     </div>
-    
-    
 
 </body>
 </html>
