@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODIZO-W2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="header">
+        <div class="logo">
+            <span>ODIZO</span>
+        </div>
+        
+        <div class="nav-desktop">
+            <a href="#">Home</a>  
+            <a href="#about-us">About</a>
+            <a href="#faq">FAQ</a>  
+            <a href="#contact-us">Contact Us</a>  
+        </div>
+        
+        <button class="mobile-menu-toggle" id="mobileMenuToggle">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+        </button>
+        
+        <div class="nav-mobile" id="mobileMenu">
+            <a href="#">Home</a>  
+            <a href="#about-us">About</a>
+            <a href="#faq">FAQ</a>  
+            <a href="#contact-us">Contact</a>  
+        </div>
+    </div>
+     
+    <div class="hero-section">
+        <span class="hero-title">ODIZO</span> 
+        
+        <span class="hero-subtitle">Custom Mobile & Web Software</span>
+        <span class="hero-description">We design, build and scale digital products from MVPs to production-grade mobile or web solutions. Fast releases, clean engineering, and growth-minded product design.</span>
+        <div>
+            <button class="hero-button">Our Works</button>
+        </div>
+    </div>
+
+    <div id="about-us" class="about-section">
+        <div class="about-header">
+            <span class="about-label">Who we are</span>
+            <h2 class="about-title">About Us</h2>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-intro">
+                    We have <span class="highlight">20+ services</span> serving thousands of customers across Custom Software Development, Websites & Brand Experience, Automation & Integrations, Maintenance, Support & Growth.
+                </p>
+                <div class="divider"></div>
+                <p class="about-mission">
+                    Our mission is to help businesses and professionals build a strong digital presence through reliable, scalable, and result-driven web solutions. At <span class="brand-name">Odizo</span>, we simplify technology so brands can grow with confidence.
+                </p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-box">
+                    <h3 class="contact-title">Connect With Us</h3>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Hitesh Kumar">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="hitesh@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="note">Your Note</label>
+                            <textarea id="note" name="note" rows="4" placeholder="How can we help you?"></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-us" class="contact-full-section">
+        <div class="contact-section-header">
+            <span class="contact-section-label">Get in Touch</span>
+            <h2 class="contact-section-title">Contact Us</h2>
+        </div>
+        
+        <div class="contact-wrapper">
+        <div class="faq-header">
+            <span class="faq-label">Questions & Answers</span>
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+        </div>
+
+        <div class="accordion-container">
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span>What services does ODIZO provide?</span>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>ODIZO specializes in custom software development, website creation, brand experience design, automation & integrations, and ongoing maintenance and support. We help businesses build scalable digital solutions from MVPs to production-ready applications.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span>How long does it take to complete a project?</span>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Project timelines vary based on complexity and scope. A simple website can take 2-4 weeks, while custom software development may take 2-6 months. We provide detailed timelines during our initial consultation and keep you updated throughout the development process.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span>Do you provide ongoing support after project completion?</span>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>Yes! We offer comprehensive maintenance and support packages to ensure your digital products continue to perform optimally. This includes bug fixes, updates, security patches, and feature enhancements as your business grows.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span>What technologies do you work with?</span>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>We work with modern web technologies including React, Node.js, Python, and various mobile frameworks. Our team stays current with the latest tools and best practices to deliver cutting-edge solutions tailored to your specific needs.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span>How do you handle project pricing?</span>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>We offer flexible pricing models including fixed-price projects and hourly rates depending on your needs. After understanding your requirements, we provide a detailed quote with transparent pricing. We believe in clear communication with no hidden costs.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">
+                    <span>Can you help with existing projects or only new ones?</span>
+                    <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p>We can help with both! Whether you need to build something from scratch, improve an existing application, fix bugs, add new features, or modernize legacy systems, our team has the expertise to assist you at any stage of your project.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-us" class="about-section">
+        <span class="footer-title">Contact Us</span>
+        
+        <div class="footer-row">
+            <span class="footer-email">Email-contac@odizo.in</span>
+            <span class="footer-social-label">Our Socials</span>
+        </div>
+        
+        <div class="footer-row">
+            <span class="footer-phone">Phone-0000000000</span>
+            <div class="social-icons">
+                <img src="../x.png" alt="X" class="social-icon">
+                <img src="../linkedin.webp" alt="LinkedIn" class="social-icon">
+                <img src="../insta.webp" alt="Instagram" class="social-icon">
+            </div>
+        </div>
+
+        <footer class="footer-bar">
+            <span>© 2026 ODIZO. All rights reserved.</span>
+        </footer>
+    </div>
+</body>
+</html>
