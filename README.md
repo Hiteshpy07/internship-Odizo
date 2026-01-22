@@ -52,3 +52,5 @@ git clone [https://github.com/Hiteshpy07/internship-Odizo.git](https://github.co
 
 # Open the file
 open index.html
+
+
