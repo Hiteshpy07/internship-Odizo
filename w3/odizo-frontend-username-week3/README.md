@@ -1,12 +1,27 @@
-# React + Vite
+# ODIZO Blog Dashboard
+ It is a functional blog  interface that allows user to add own blogs which list the title , author and the content of the bolg.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+### 📝 Project Choice
+* **Option A:** React Component UI (Highly Recommended)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✨ Features Implemented
+* **Add New Blogs:** A functional form that adds new posts to the display grid instantly.
+* **Live Post Counter:** A dynamic counter in the Navbar that tracks the total number of blogs.
+* **Reusable UI Components:** Created modular components like `BlogCard` for better code organization.
+* **Dark Theme Design:** A modern, professional dark-mode interface styled specifically for the Odizo brand.
+* **Responsive Layout:** The grid system works perfectly on both mobile phones and desktops.
 
-## Expanding the ESLint configuration
+### 🛠️ Tech Used
+* **React.js:** For the core logic and state management (useState).
+* **Tailwind CSS:** For all the styling and dark-themed UI.
+* **JavaScript (ES6):** For handling data arrays and form logic.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🚀 How to Start
+1. Install the dependencies:
+   `npm install`
+2. Start the development server:
+   `npm start`
+
+---
